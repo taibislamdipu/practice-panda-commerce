@@ -1,6 +1,6 @@
 
 
-.orange-bg{
+.orange-bg, #subscribe{
     background-color: #feeae9;
 }
 
@@ -21,6 +21,60 @@
     padding: 10px 40px;
 }
 
-.carousel{
-    margin-top: 100px;
+.container{
+    margin-bottom: 100px;
+}
+
+/* categories */
+
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.categories img{
+    width: 100px;
+}
+
+
+.cat1{
+    background-image: linear-gradient(to right, orange , rgb(230, 231, 160));
+}
+
+.cat2{
+    background-image: linear-gradient(to left, violet, rgb(211, 171, 211));
+}
+
+.cat3{
+    background-image: linear-gradient(to right, blue , rgb(84, 84, 207));
+}
+
+
+/* shoes */
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+
+/* Backpack Catagory */
+.card-footer{
+    background-color: #fff;
+    border: none;
+}
+
+
+/* subscribe */
+#subscribe{
+    height: 300px;
+}
+
+.submit{
+    margin-top: 10px;
+}
+
+/* footer */
+footer{
+    text-align: center;
 }
